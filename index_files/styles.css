@@ -1,0 +1,133 @@
+body {
+    background-image: url('bg.png');
+    background-size: contain;
+    background-position: center;
+    background-size: auto;
+    animation: bg 40s linear infinite;
+}
+@keyframes bg {
+    0% {background-position-x: 0px; background-position-y: 0px; }
+    100% {background-position-x: 100%; background-position-y: -100%;}
+}
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+h3 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.end {
+    font-size: 7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+.big {
+    font-size: 4em;
+}
+@keyframes float {
+    0% {transform: translateY(1em);}
+    50% {transform: translateY(0em);}
+    100% {transform: translateY(1em);}
+}
+#rainbow {
+    animation: rainbow 6s linear 0s infinite;
+}
+@keyframes rainbow {
+    from {
+      color: #ff3030;
+    }
+    25% {
+      color: #f6ff00;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #067edf;
+    }
+    100% {
+      color: #ff66f0;
+    }
+  }
+
+a {
+    text-decoration: none;
+}
+
+button {
+  left: 30%;
+  height: 70px;
+  width: 30%;
+  box-sizing: border-box;
+  right: 30%;
+  position: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: .4em;
+  -webkit-border-radius: .4em;
+  text-align: center;
+  text-decoration: none;
+  -moz-border-radius: .4em;
+  -ms-border-radius: .4em;
+  -o-border-radius: .4em;
+  background-color: rgb(236, 236, 236);
+  border: 0;
+  font-size: 1.5em;
+  padding: .4em;
+  transition: 100ms;
+  -webkit-transition: 100ms;
+  -moz-transition: 100ms;
+  -ms-transition: 100ms;
+  -o-transition: 100ms;
+  box-shadow: rgba(83, 83, 83, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  color: black;
+  display: block; /* Change the display property to block */
+  margin: 0 auto; /* Add auto margins to horizontally center */
+  margin-bottom: 10px; /* Add some space between buttons */
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  background-color: rgb(250, 250, 250);
+  transition: 100ms;
+  -webkit-transition: 100ms;
+  -moz-transition: 100ms;
+  -ms-transition: 100ms;
+  -o-transition: 100ms;
+}
+
+button:active {
+  background-color: rgb(210, 210, 210);
+  transition: 50ms;
+  -webkit-transition: 50ms;
+  -moz-transition: 50ms;
+  -ms-transition: 50ms;
+  -o-transition: 50ms;
+}
+  
