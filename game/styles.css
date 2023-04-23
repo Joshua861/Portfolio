@@ -6,6 +6,20 @@ h1 {
     -webkit-animation: float 3s ease-in-out infinite;
 }
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    left: 30%;
+    right: 30%;
+    position: relative;
+    font-size: 2em;
+}
+
+.cost {
+    font-size: 1em;
+    color: gray;
+    font-style: italic;
+}
+
 @keyframes float {
     0% { transform: translateY(.6em); -webkit-transform: translateY(.6em); -moz-transform: translateY(.6em); -ms-transform: translateY(.6em); -o-transform: translateY(.6em); }
     50% { transform: translateY(0em); -webkit-transform: translateY(0em); -moz-transform: translateY(0em); -ms-transform: translateY(0em); -o-transform: translateY(0em); }
@@ -30,21 +44,7 @@ img {
     position: relative;
 }
 
-/* ttb is short for tic tac toe button */
-
-.tttb {
-    background-color: rgba(0, 0, 0, .50);
-    position: absolute;
-    border: 0;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    height: 13.33333333333333333333%;
-}
-
-.nice {
+button {
     left: 30%;
     right: 30%;
     position: relative;
@@ -66,9 +66,11 @@ img {
     box-shadow: rgba(83, 83, 83, 0.2) 0px 7px 29px 0px;
     cursor: pointer;
     color: black;
+    height: fit-content;
+    width: fit-content  ;
 }
 
-.nice:hover {
+button:hover {
     background-color: rgb(241, 239, 239);
     transition: 100ms;
     -webkit-transition: 100ms;
@@ -77,7 +79,7 @@ img {
     -o-transition: 100ms;
 }
 
-.nice:active {
+button:active {
     background-color: rgb(210, 210, 210);
     transition: 50ms;
     -webkit-transition: 50ms;
@@ -92,4 +94,12 @@ img {
 
 .invisible {
     display: none;
+}
+
+#upgrades {
+    position: relative;
+}
+
+#specialUpgrades {
+    position: relative;
 }
