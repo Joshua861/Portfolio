@@ -1,33 +1,38 @@
 h1 {
     text-align: center;
-        color: black;
+    color: black;
     font-family: 'Open Sans', sans-serif;
-    font-size: 3em; 
+    font-size: 3em;
 }
+
 h3 {
     text-align: center;
     font-weight: 600;
-        color: black;
+    color: black;
     font-family: 'Open Sans', sans-serif;
 }
+
 p {
     margin-left: 35%;
     margin-right: 35%;
-        color: black;
+    color: black;
     font-family: 'Open Sans', sans-serif;
 }
+
 h2 {
     margin-left: 35%;
     margin-right: 35%;
     color: black;
     font-family: 'Open Sans', sans-serif;
 }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
 }
+
 .end {
     font-size: 7em;
     font-family: 'Open Sans', sans-serif;
@@ -35,15 +40,18 @@ img {
     text-align: center;
     color: black;
 }
+
 body {
     background-image: url('bg.png');
     background-size: contain;
     background-position: center;
 }
+
 a {
     font-family: 'Open Sans', sans-serif;
     color: black;
 }
+
 hr {
     border: 0;
     height: 1px;
