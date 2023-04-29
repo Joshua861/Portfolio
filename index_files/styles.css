@@ -1,54 +1,72 @@
 body {
-  background-image: url('bg.png');
-  background-size: contain;
-  background-position: center;
-  background-size: auto;
-  animation: bg 40s linear infinite;
+    background-image: url('bg.png');
+    background-size: contain;
+    background-position: center;
+    background-size: auto;
+    animation: bg 400s linear infinite;
+    -webkit-animation: bg 400s linear infinite;
 }
 
 @keyframes bg {
-  0% {
-    background-position-x: 0px;
-    background-position-y: 0px;
-  }
+    0% {
+        background-position-x: 0px;
+        background-position-y: 0px;
+    }
 
-  100% {
-    background-position-x: 100%;
-    background-position-y: -100%;
-  }
+    100% {
+        background-position-x: 2000%;
+        background-position-y: -2000%;
+    }
 }
+
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .big {
-  font-size: 4em;
+    font-size: 4em;
 }
+
 @keyframes float {
-    0% {transform: translateY(1em);}
-    50% {transform: translateY(0em);}
-    100% {transform: translateY(1em);}
+    0% {
+        transform: translateY(1em);
+    }
+
+    50% {
+        transform: translateY(0em);
+    }
+
+    100% {
+        transform: translateY(1em);
+    }
 }
+
 #rainbow {
     animation: rainbow 6s linear 0s infinite;
 }
+
 @keyframes rainbow {
     from {
-      color: #ff3030;
+        color: #ff3030;
     }
+
     25% {
-      color: #f6ff00;
+        color: #f6ff00;
     }
+
     50% {
-      color: #00ff00;
+        color: #00ff00;
     }
+
     75% {
-      color: #067edf;
+        color: #067edf;
     }
+
     100% {
-      color: #ff66f0;
+        color: #ff66f0;
     }
-  }
+}
+
 @media only screen and (max-width: 800px) {
     article {
         padding-right: 5%;
@@ -141,6 +159,7 @@ button {
     -moz-transition: all 0.15s ease-in-out;
     -ms-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
+    margin: 2px;
 }
 
 button:hover {
@@ -602,15 +621,16 @@ figcaption {
     color: white;
     background: rgba(166, 0, 255, 0.58);
 }
+
 .social-image {
-  width: 2em !important;
-  height: 2em !important;
-  border-radius: .2em !important;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+    width: 2em !important;
+    height: 2em !important;
+    border-radius: .2em !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
+
 social-link {
-  display: inline-block;
-  color: black;
+    display: inline-block;
+    color: black;
 }
-  
